@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Typing Master Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="typing-container">
+    <h1>Typing Master</h1>
+    <div id="sentence-display"></div>
+    <textarea id="user-input" placeholder="Start typing..." oninput="checkInput()"></textarea>
+    <div class="info">
+      <span id="timer">Time: 60</span>
+      <span id="score">Score: 0</span>
+    </div>
+    <div id="message"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
